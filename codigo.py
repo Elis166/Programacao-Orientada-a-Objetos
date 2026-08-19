@@ -121,7 +121,6 @@ def criar_interface(janela):
 
     titulo.pack(pady=20)
 
-    # Nome
     tk.Label(
         janela,
         text="Nome:"
@@ -134,7 +133,6 @@ def criar_interface(janela):
 
     entrada_nome.pack(pady=5)
 
-    # Sobrenome
     tk.Label(
         janela,
         text="Sobrenome:"
@@ -147,7 +145,6 @@ def criar_interface(janela):
 
     entrada_sobrenome.pack(pady=5)
 
-    # E-mail
     tk.Label(
         janela,
         text="E-mail:"
@@ -160,7 +157,6 @@ def criar_interface(janela):
 
     entrada_email.pack(pady=5)
 
-    # Telefone
     tk.Label(
         janela,
         text="Telefone:"
@@ -173,7 +169,6 @@ def criar_interface(janela):
 
     entrada_telefone.pack(pady=5)
 
-    # Botão cadastrar
     botao_cadastrar = tk.Button(
         janela,
         text="Cadastrar Cliente",
@@ -188,7 +183,6 @@ def criar_interface(janela):
 
     botao_cadastrar.pack(pady=15)
 
-    # Botão consultar
     botao_consultar = tk.Button(
         janela,
         text="Consultar Clientes",
@@ -198,7 +192,6 @@ def criar_interface(janela):
 
     botao_consultar.pack(pady=5)
 
-    # Botão limpar
     botao_limpar = tk.Button(
         janela,
         text="Limpar Campos",
@@ -213,7 +206,6 @@ def criar_interface(janela):
 
     botao_limpar.pack(pady=5)
 
-    # Botão sair
     botao_sair = tk.Button(
         janela,
         text="Sair",
