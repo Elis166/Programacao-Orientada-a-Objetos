@@ -12,3 +12,10 @@ Tipo de quarto: suite
 Data de entrada: 30/09/2026
 Data de saída: 15/10/2026
 -----------------------------
+Nome: Aleff Lohan
+CPF: 70243113471
+Telefone: 84996023362
+Tipo de quarto: Suíte
+Data de entrada: 01/09/2026
+Data de saída: 10/09/2026
+-----------------------------
