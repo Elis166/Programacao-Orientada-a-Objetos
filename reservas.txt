@@ -1,0 +1,14 @@
+Nome: elis
+CPF: 11111111111111
+Telefone: 222222222222222
+Tipo de quarto: suite
+Data de entrada: 09/09/2026
+Data de saída: 20/09/2026
+-----------------------------
+Nome: joao
+CPF: 33333333
+Telefone: 444444444
+Tipo de quarto: suite
+Data de entrada: 30/09/2026
+Data de saída: 15/10/2026
+-----------------------------
