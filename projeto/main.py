@@ -120,35 +120,35 @@ entrada_data_saida = Entry(
 
 entrada_data_saida.pack(pady=5)
 
+frame_botoes = Frame(janela)
+frame_botoes.pack(pady=10)
+
 botao_cadastrar = Button(
-    janela,
+    frame_botoes,
     text="Cadastrar Reserva",
     command=lambda: funcoes.cadastrar(entrada_nome, entrada_cpf, entrada_telefone, entrada_quarto, entrada_data_entrada, entrada_data_saida),
     bg="green",
     fg="white"
 )
-
-botao_cadastrar.pack(pady=10)
+botao_cadastrar.pack(side=LEFT, padx=5)
 
 botao_consultar = Button(
-    janela,
+    frame_botoes,
     text="Consultar Reservas",
     command=lambda: funcoes.consultar(caixa_texto),
     bg="blue",
     fg="white"
 )
-
-botao_consultar.pack(pady=5)
+botao_consultar.pack(side=LEFT, padx=5)
 
 botao_limpar = Button(
-    janela,
+    frame_botoes,
     text="Limpar Campos",
     command=lambda: funcoes.limpar(entrada_nome, entrada_cpf, entrada_telefone, entrada_quarto, entrada_data_entrada, entrada_data_saida),
     bg="red",
     fg="white"
 )
-
-botao_limpar.pack(pady=5)
+botao_limpar.pack(side=LEFT, padx=5)
 
 caixa_texto = Text(
     janela,
@@ -160,12 +160,11 @@ caixa_texto = Text(
 caixa_texto.pack(pady=15)
 
 botao_sair = Button(
-    janela,
+    frame_botoes,
     text="Sair",
     command=lambda: funcoes.sair(janela),
     bg="yellow"
 )
-
-botao_sair.pack(pady=5)
+botao_sair.pack(side=LEFT, padx=5)
 
 janela.mainloop()
