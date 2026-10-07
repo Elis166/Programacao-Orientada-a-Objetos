@@ -19,3 +19,17 @@ Tipo de quarto: Suíte
 Data de entrada: 01/09/2026
 Data de saída: 10/09/2026
 -----------------------------
+Nome: keyty herculano
+CPF: 098765432456789
+Telefone: 98765432456789
+Tipo de quarto: sensual
+Data de entrada: 12/02/2000
+Data de saída: 13/02/2000
+-----------------------------
+Nome: priscilla
+CPF: 4186345869
+Telefone: 1453546
+Tipo de quarto: suite master
+Data de entrada: 06/04/2027
+Data de saída: 16/05/2027
+-----------------------------
