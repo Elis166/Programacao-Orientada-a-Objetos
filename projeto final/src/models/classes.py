@@ -38,7 +38,7 @@ class Guerreiro(Personagem):
             
         self._mana_atual -= custo_mana
         dano_total = self._dano_base * 2
-        print(f"🪓 {self._nome} usa **Golpe Pesado** em {alvo.nome}!")
+        print(f"{self._nome} usa **Golpe Pesado** em {alvo.nome}!")
         alvo.receber_dano(dano_total)
 
 
