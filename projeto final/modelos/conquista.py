@@ -1,5 +1,5 @@
 class Conquista:
-    def __init__(self, id_conquista, nome, descricao, requisito):
+    def __init__(self, id_conquista: int, nome: str, descricao: str, requisito):
         self._id_conquista = id_conquista
         self._nome = nome
         self._descricao = descricao

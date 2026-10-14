@@ -1,5 +1,5 @@
 class Personagem:
-    def __init__(self, id_personagem, nome, nivel, experiencia, classe, estudante):
+    def __init__(self, id_personagem: int, nome: str, nivel, experiencia, classe, estudante):
         self._id_personagem = id_personagem
         self._nome = nome
         self._nivel = nivel

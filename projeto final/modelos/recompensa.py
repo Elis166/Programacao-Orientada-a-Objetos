@@ -1,5 +1,5 @@
 class Recompensa:
-    def __init__(self, id_recompensa, nome, descricao, tipo):
+    def __init__(self, id_recompensa: int, nome: str, descricao: str, tipo: str):
         self._id_recompensa = id_recompensa
         self._nome = nome
         self._descricao = descricao

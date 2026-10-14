@@ -1,5 +1,5 @@
 class Estudante:
-    def __init__(self, id_estudante, nome, email, turma):
+    def __init__(self, id_estudante: int, nome: str, email: str, turma: str):
         self._id_estudante = id_estudante
         self._nome = nome
         self._email = email
@@ -8,7 +8,7 @@ class Estudante:
 
     @property
     def id_estudante(self):
-        return self._preco
+        return self._id_estudante
 
     @id_estudante.setter
     def id_estudante(self, novo_id):

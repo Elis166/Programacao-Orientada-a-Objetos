@@ -1,5 +1,5 @@
 class Missao:
-    def __init__(self, id_missao, titulo, descricao, dificuldade, experiencia):
+    def __init__(self, id_missao: int, titulo: str, descricao: str, dificuldade: str, experiencia):
         self._id_missao = id_missao
         self._titulo = titulo
         self._descricao = descricao
