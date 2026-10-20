@@ -1,8 +1,11 @@
+from typing import Optional
+from src.models.estudante import Estudante
+
 class Personagem:
     def __init__(self,
                  id_personagem: int, 
                  nome: str, 
-                 estudante, 
+                 estudante: Optional["Estudante"], 
                  hp_max: int, 
                  mana_max: int, 
                  dano_base: int):

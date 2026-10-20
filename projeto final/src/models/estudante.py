@@ -1,10 +1,13 @@
+from typing import Optional
+from src.models.personagem import Personagem
+
 class Estudante:
     def __init__(self, id_estudante: int, nome: str, email: str, turma: str):
         self._id_estudante = id_estudante
         self._nome = nome
         self._email = email
         self._turma = turma
-        self._personagem = None
+        self._personagem: Optional["Personagem"] = None
 
     @property
     def id_estudante(self):

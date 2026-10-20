@@ -1,10 +1,26 @@
+from typing import Optional
+from src.models.recompensa import Recompensa
+from src.models.conquista import Conquista
+from src.models.enums import StatusMissao
+
 class Missao:
-    def __init__(self, id_missao: int, titulo: str, descricao: str, dificuldade: str, experiencia):
+    def __init__(self, 
+                 id_missao: int, 
+                 titulo: str, 
+                 descricao: str, 
+                 dificuldade: str, 
+                 experiencia: int,
+                 recompensa: Optional[Recompensa] = None,
+                 conquista: Optional[Conquista] = None):
+        
         self._id_missao = id_missao
         self._titulo = titulo
         self._descricao = descricao
         self._dificuldade = dificuldade
         self._experiencia = experiencia
+        self._recompensa = recompensa
+        self._conquista = conquista
+        self._status = StatusMissao.DISPONIVEL
 
     @property
     def id_missao(self):
@@ -45,3 +61,27 @@ class Missao:
     @experiencia.setter
     def experiencia(self, nova_exp):
         self._experiencia = nova_exp
+
+    @property
+    def recompensa(self):
+        return self._recompensa
+
+    @recompensa.setter
+    def recompensa(self, nova_recompensa):
+        self._recompensa = nova_recompensa
+
+    @property
+    def conquista(self):
+        return self._conquista
+
+    @conquista.setter
+    def conquista(self, nova_conquista):
+        self._conquista = nova_conquista
+
+    @property
+    def status(self) -> str:
+        return self._status
+
+    @status.setter
+    def status(self, novo_status: str):
+        self._status = novo_status
