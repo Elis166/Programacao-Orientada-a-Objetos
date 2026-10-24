@@ -1,7 +1,6 @@
 # missão do armário
 
-from modelos.missao import Missao
-
+from src.models.missao import Missao
 
 class MissaoArmario(Missao):
 
