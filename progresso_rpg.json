@@ -1,0 +1,24 @@
+{
+    "nome": "Alestir",
+    "classe": "Guerreiro",
+    "hp": 130,
+    "hp_maximo": 130,
+    "mana": 35,
+    "mana_maxima": 35,
+    "xp": 0,
+    "nivel": 1,
+    "moedas": 30,
+    "nivel_concluido": 0,
+    "pocoes": 2,
+    "pocoes_mana": 2,
+    "aliados": [],
+    "segredo": false,
+    "eventos_concluidos": [],
+    "dialogos_vistos": [
+        "Davi_classe",
+        "Davi_segredo"
+    ],
+    "conquistas": [],
+    "recompensa_final": false,
+    "especiais_usados": 0
+}
