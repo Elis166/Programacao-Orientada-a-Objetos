@@ -1,0 +1,29 @@
+{
+    "nome": "fulano",
+    "classe": "Guerreiro",
+    "hp": 46,
+    "hp_maximo": 138,
+    "mana": 10,
+    "mana_maxima": 40,
+    "xp": 80,
+    "nivel": 2,
+    "moedas": 80,
+    "nivel_concluido": 2,
+    "pocoes": 2,
+    "pocoes_mana": 0,
+    "aliados": [],
+    "segredo": true,
+    "eventos_concluidos": [
+        0,
+        1,
+        2
+    ],
+    "dialogos_vistos": [],
+    "conquistas": [
+        "primeira_vitoria",
+        "especialista",
+        "explorador"
+    ],
+    "recompensa_final": false,
+    "especiais_usados": 4
+}

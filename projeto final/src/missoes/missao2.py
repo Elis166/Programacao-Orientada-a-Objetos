@@ -20,18 +20,38 @@ class MissaoArmario(Missao):
 
         self.charadas = {
             "Biblioteca": {
-                "pergunta": "Sou o número de lados de um triângulo. Quem sou eu?",
-                "resposta": "3",
+                "pergunta": (
+                    "Qual será a saída deste código?\n\n"
+                    "class Animal:\n"
+                    "    def falar(self):\n"
+                    "        print('Som')\n\n"
+                    "animal = Animal()\n"
+                    "(A)  Animal\n"
+                    "(B)  falar\n"
+                    "(C)  Som"
+                ),
+                "resposta": "C",
                 "pista": "O primeiro número da senha é 3."
             },
+
             "Sala de Matemática": {
-                "pergunta": "Quanto é 10 dividido por 2?",
-                "resposta": "5",
+                "pergunta": (
+                    "Qual conceito de POO permite que uma classe filha reutilize atributos e métodos de uma classe pai?\n\n"
+                    "(A)  Encapsulamento\n"
+                    "(B)  Herança\n"
+                    "(C)  Polimorfismo"
+                ),
+                "resposta": "B",
                 "pista": "O segundo número da senha é 5."
             },
             "Laboratório de Ciências": {
-                "pergunta": "Quantas rodas tem uma bicicleta comum?",
-                "resposta": "2",
+                "pergunta": (
+                    "Em Python, usando a biblioteca Tkinter, qual widget permite que o usuário digite informações, como seu nome, em uma interface gráfica?\n\n"
+                    "(A)  Entry\n"
+                    "(B)  Label\n"
+                    "(C)  Button"
+                ),
+                "resposta": "B",
                 "pista": "O terceiro número da senha é 2."
             }
         }
