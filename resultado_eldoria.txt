@@ -1,0 +1,3 @@
+Jogador: elis
+Resultado: Vitória
+Vidas restantes: 3

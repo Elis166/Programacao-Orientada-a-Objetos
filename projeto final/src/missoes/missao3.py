@@ -67,12 +67,10 @@ class Jogo:
         nome = input('Qual é o nome do aventureiro? ').strip() or 'Aventureiro'
         self.jogador = Aventureiro(nome)
         self.mostrar(
-            f'{nome} chega a Eldoria, uma vila onde os moradores são transformados '
-            'em criaturas todas as noites. Helena conta que apenas o Cristal da Aurora '
-            'pode quebrar a maldição. Para recuperá-lo, é preciso atravessar a floresta.'
+            f'Era uma vez, uma vila chamada Eldoria, que era uma vila tranquila, protegida pelo Cristal da Aurora.\nUm dia, um feiticeiro chamado Morvan lançou uma maldição sobre o povo daquele lugar, fazendo com que\nse transformassem em criaturas todas as noites. Por muito tempo ficaram presos naquela maldição, até que, acidentalmente, um\naventureiro se perdeu depois de uma grande tempestade e foi parar ness misteriosa vila. Estranhou muito, pois as ruas estavam desertas,\nas casas, vazias. Pocurando abrigo, deu de cara com uma senhora chamada Helena,\nque lhe contou sobre a maldição e revelou que a única maneira de salvar Eldoria seria recuperar o Cristal da Aurora, escondido na Floresta Sombria.\nDeterminado a ajudar, o aventureiro aceitou a missão. Antes de partir, recebeu de Helena um amuleto com três cargas mágicas, que\nrepresentavam suas três vidas. A cada escolha errada, perderia uma carga e, caso perdesse todas, sua jornada chegaria ao fim.\nPegou o amoleto e partiu em direção à floresta, sem imaginar os desafios que o\naguardavam.'
         )
 
-        # DESAFIO 1 — classes, objetos e métodos
+        # DESAFIO 1
         acertou = self.perguntar(
             'DESAFIO 1 — O PORTÃO ENCANTADO\n'
             'Uma inscrição revela:\n'
@@ -93,7 +91,7 @@ class Jogo:
         if self.fim_por_derrota():
             return
 
-        # DESAFIO 2 — tratamento de exceções
+        # DESAFIO 2
         self.mostrar('Você chega à Ponte das Sombras. Uma criatura mostra o encantamento: '
                      'energia = 10; custo = 0; resultado = energia / custo.')
         self.perguntar(
@@ -109,7 +107,7 @@ class Jogo:
         if self.fim_por_derrota():
             return
 
-        # DESAFIO 3 — encapsulamento
+        # DESAFIO 3
         acertou = self.perguntar(
             'DESAFIO 3 — O CRISTAL DA AURORA\n'
             'No templo, uma inscrição revela:\n'
