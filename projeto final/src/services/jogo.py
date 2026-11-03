@@ -1,5 +1,3 @@
-from typing import List, Optional
-from src.models.estudante import Estudante
 from src.models.personagem import Personagem
 from src.models.missao import Missao
 from src.models.enums import StatusMissao

@@ -1,5 +1,8 @@
-from typing import Optional
-from src.models.personagem import Personagem
+from __future__ import annotations
+from typing import Optional, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from src.models.personagem import Personagem
 
 class Estudante:
     def __init__(self, id_estudante: int, nome: str, email: str, turma: str):
@@ -7,7 +10,7 @@ class Estudante:
         self._nome = nome
         self._email = email
         self._turma = turma
-        self._personagem: Optional["Personagem"] = None
+        self._personagem: Optional[Personagem] = None
 
     @property
     def id_estudante(self):

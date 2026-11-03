@@ -2,37 +2,11 @@ import json
 import os
 import random
 
+from src.models.classes import Mago, Arqueiro, Guerreiro
+
 ARQUIVO_SALVAMENTO = "progresso_rpg.json"
 
-CLASSES = {
-    "Mago": {
-        "hp": 90,
-        "mana": 60,
-        "ataque": (12, 22),
-        "especial": (28, 40),
-        "custo_especial": 15,
-        "habilidade": "Escudo Arcano",
-        "custo_habilidade": 10
-    },
-    "Arqueiro": {
-        "hp": 105,
-        "mana": 45,
-        "ataque": (15, 25),
-        "especial": (25, 38),
-        "custo_especial": 12,
-        "habilidade": "Mira Perfeita",
-        "custo_habilidade": 10
-    },
-    "Guerreiro": {
-        "hp": 130,
-        "mana": 35,
-        "ataque": (18, 28),
-        "especial": (27, 42),
-        "custo_especial": 14,
-        "habilidade": "Defesa de Ferro",
-        "custo_habilidade": 10
-    }
-}
+CLASSES = {c.__name__: c.PERFIL for c in (Mago, Arqueiro, Guerreiro)}
 
 NIVEIS = [
     {

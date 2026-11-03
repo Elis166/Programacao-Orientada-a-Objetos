@@ -1,11 +1,14 @@
-from typing import Optional
-from src.models.estudante import Estudante
+from __future__ import annotations
+from typing import Optional, TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from src.models.estudante import Estudante
 
 class Personagem:
     def __init__(self,
                  id_personagem: int, 
                  nome: str, 
-                 estudante: Optional["Estudante"], 
+                 estudante: Optional[Estudante], 
                  hp_max: int, 
                  mana_max: int, 
                  dano_base: int):

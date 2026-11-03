@@ -51,7 +51,7 @@ class MissaoArmario(Missao):
                     "(B)  Label\n"
                     "(C)  Button"
                 ),
-                "resposta": "B",
+                "resposta": "A",
                 "pista": "O terceiro número da senha é 2."
             }
         }
