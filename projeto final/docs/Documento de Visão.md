@@ -1,8 +1,9 @@
 # Documento de Visão – RPG Escolar
 
+### Projeto Final da disciplina de Programação Orientada a Objetos. 
+### Equipe: Aleff Lohan, Anny Beatriz, Elis Vitória e Keyty Winslet.
+### Professora: Priscilla Suene
 *RPG educacional de terminal para o ensino de Programação Orientada a Objetos*
-
-Projeto Final da disciplina de Programação Orientada a Objetos. Equipe: Aleff Lohan, Anny Beatriz, Elis Vitória e Keyty Winslet.
 
 ## 1. Nome do sistema
 
