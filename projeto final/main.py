@@ -1,7 +1,7 @@
-"""Menu principal do projeto RPG.
+"""Menu principal do projeto
 
-Reúne as missões do projeto em um único ponto de entrada:
-    python main.py
+Reúne as missões em um único ponto de entrada
+
 """
 import json
 import os
